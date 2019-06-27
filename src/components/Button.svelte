@@ -101,7 +101,7 @@
         <slot />
     </a>
 {:else}
-    <button on:click {type} class={classList} disabled>
+    <button on:click {type} class={classList} {disabled}>
         <slot />
     </button>
 {/if}

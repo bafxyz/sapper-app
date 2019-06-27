@@ -48,7 +48,7 @@
 
 <h1>Great success!</h1>
 
-<Button active disabled on:click={handleClick}>Test</Button>
+<Button active on:click={handleClick}>Test</Button>
 
 <figure>
     <img alt="Borat" src="great-success.png" />
